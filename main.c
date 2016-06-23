@@ -128,7 +128,7 @@ int main(void) {
   chThdCreateStatic(waThread2, sizeof(waThread2), HIGHPRIO, Thread2, NULL);
   chThdCreateStatic(waThread3, sizeof(waThread3), HIGHPRIO, thread3, NULL);
   
-	while (true) {
-		chThdSleepMilliseconds(1000);
-	}
+  while (true) {
+    chThdSleepMilliseconds(1000);
+  }
 }
